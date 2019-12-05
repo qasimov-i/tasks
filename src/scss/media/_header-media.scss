@@ -1,0 +1,191 @@
+@media screen and (min-width: 320px) and (max-width: 480px){
+  html{
+    font-size: 10px;
+  }
+}
+@media screen and(min-width:400px)and(max-width: 480px){
+.forkio {
+
+  &__slogan {
+    &__dropDownMenu {
+      width: 45rem;
+      height: 36.7rem;
+      &__list{
+        &--link{
+          font-size: 3rem;
+        }
+
+      }
+    }
+  }
+
+  &__buttonDwn {
+    bottom: -2.5rem;
+    margin-left: 8.5rem;
+  }
+
+  &--dwnText {
+    bottom: -5.5rem;
+    margin-left: 13rem;
+  }
+}
+}
+@media screen and(min-width: 481px) and(max-width: 768px) {
+  .forkio {
+    background-position-y: 153rem;
+    background-position-x: -28rem;
+    background-size: 136rem;
+
+    &__navbar {
+      display: block;
+      position: relative;
+
+      &--logo {
+        position: absolute;
+      }
+
+      &__menu {
+        display: none;
+      }
+
+      &--imgText {
+        position: absolute;
+        display: inline-block;
+        top: 3.8rem;
+        left: 7rem;
+      }
+
+      &__button {
+        margin-top: 2rem;
+        margin-left: 60rem;
+        width: 16rem;
+        height: 4rem;
+      }
+
+      &__menu780 {
+        display: flex;
+        margin: -4rem 0 0 11rem;
+
+        &--item {
+          font-size: 1.7rem;
+          text-decoration: none;
+          color: #8d81ac;
+          font-family: 'Montserrat', bold;
+          margin: 2rem 2rem 2rem 2rem;
+        }
+      }
+
+    }
+
+    &__slogan {
+      &__dropDownMenu{
+        display: none;
+      }
+      &--tittle {
+        font-size: 7rem;
+      }
+    }
+
+    &__buttonDwn {
+      bottom: -2.6rem;
+      width: 34rem;
+      height: 5.2rem;
+      margin-left: 22rem;
+
+      &--text {
+        font-size: 2rem;
+      }
+    }
+    &--dwnText{
+      margin-left: 28rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and(min-width: 769px) and(max-width: 991px) {
+  .forkio {
+    background-position-y: 153rem;
+    background-position-x: -28rem;
+    background-size: 136rem;
+
+    &__navbar {
+      display: block;
+      position: relative;
+
+      &--logo {
+        position: absolute;
+      }
+
+      &__menu {
+        display: none;
+      }
+
+      &--imgText {
+        position: absolute;
+        display: inline-block;
+        top: 3.8rem;
+        left: 7rem;
+      }
+
+      &__button {
+        margin-top: 2rem;
+        margin-left: 60rem;
+        width: 16rem;
+        height: 4rem;
+      }
+
+      &__menu780 {
+        display: flex;
+        margin: -4rem 0 0 11rem;
+
+        &--item {
+          font-size: 1.7rem;
+          text-decoration: none;
+          color: #8d81ac;
+          font-family: 'Montserrat', bold;
+          margin: 2rem 2rem 2rem 2rem;
+        }
+      }
+
+    }
+
+    &__slogan {
+      &__dropDownMenu{
+        display: none;
+      }
+      &--tittle {
+        font-size: 7rem;
+      }
+    }
+
+    &__buttonDwn {
+      bottom: -2.6rem;
+      width: 34rem;
+      height: 5.2rem;
+      margin-left: 22rem;
+
+      &--text {
+        font-size: 2rem;
+      }
+    }
+    &--dwnText{
+      margin-left: 28rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+
+@media screen and(min-width: 1201px){
+  .forkio{
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+    &__slogan{
+      &__dropDownMenu{
+        display: none;
+      }
+    }
+
+  }
+}
