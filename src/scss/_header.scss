@@ -1,130 +1,165 @@
-.forkio{
-  background: url(../img/bg@2x.jpg)211rem 148rem ;
+.forkio {
+  background: url(../img/bg@2x.jpg) 211rem 148rem;
   background-size: 130rem;
   height: 68.8rem;
   position: relative;
-  &__navbar{
+
+  &__navbar {
     background: #27262a;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    &--logo{
-      padding: 3.1rem 0 3.1rem 1.6rem;
-    }
-    &--logo:hover {
-      mix-blend-mode: color-dodge;
-    }
-    &__menu780{
-      display:none;
-    }
-    &--imgText{
+    &__button2{
       display: none;
-      color: #8d81ac;
-      text-transform: uppercase;
-      font-size: 2.6rem;
-      font-family: 'Montserrat', bold;
-    }
-    
-    &__button{
+      &:hover{
+        background: #33333a;
+        color:white;
+        cursor: pointer;
+      }
       width: 11.9rem;
       height: 3.7rem;
       border: none;
-      border-radius:3.2rem;
+      border-radius: 3.2rem;
       background-color: #8d81ac;
-       margin: 3.3rem 0 3.3rem 0;
-      &--text{
+      margin: 3.3rem 0 3.3rem 0;
+
+      &--text {
         text-decoration: none;
         color: #ffffff;
         font-size: 1.5rem;
         font-family: 'Montserrat', bold;
       }
     }
-    &__button:hover
-    {
-      background-color: white;
-
+    
+    &--logo {
+      padding: 3.1rem 0 3.1rem 1.6rem;
     }
-    &__button:hover &--text{
+
+    &--logo:hover {
+      mix-blend-mode: color-dodge;
+    }
+
+    &__menu780 {
+      display: none;
+    }
+
+    &--imgText {
+      display: none;
       color: #8d81ac;
+      text-transform: uppercase;
+      font-size: 2.6rem;
+      font-family: 'Montserrat', bold;
+    }
+
+    &__button {
+      &:hover{
+        background: #33333a;
+        color:white;
+        cursor: pointer;
+      }
+      width: 11.9rem;
+      height: 3.7rem;
+      border: none;
+      border-radius: 3.2rem;
+      background-color: #8d81ac;
+      margin: 3.3rem 0 3.3rem 0;
+
+      &--text {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-family: 'Montserrat', bold;
+      }
+
 
     }
-    &__menu{
+
+    &__menu {
       position: relative;
       margin: 4.5rem 1.6rem 3.1rem 0;
-      &--line{
+
+      &--line {
         width: 3.5rem;
-        height:0.4rem ;
-        border-radius:3.2rem ;
-        background:white ;
+        height: 0.4rem;
+        border-radius: 3.2rem;
+        background: white;
         margin-top: 0.6rem;
       }
-      &--line:first-child{
+
+      &--line:first-child {
         position: absolute;
         right: 0;
-        width:2.6rem ;
-       margin-top: -0.4rem;
+        width: 2.6rem;
+        margin-top: -0.4rem;
       }
     }
   }
 
-  &__slogan{
+  &__slogan {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding: 3.5rem 1.5rem 3.5rem 1.5rem ;
+    padding: 3.5rem 1.5rem 3.5rem 1.5rem;
     background: #010005;
     position: relative;
-    &--tittle{
+
+    &--tittle {
       color: #ffffff;
       font-size: 5.4rem;
       font-family: 'Lato', bold;
     }
-    &--text{
+
+    &--text {
       color: #8478a1;
-      font-family: 'Montserrat',regular;
+      font-family: 'Montserrat', regular;
       font-size: 1.8rem;
       line-height: 3.5rem;
       margin: 1rem 0 1rem 0;
     }
-    &--subtext{
+
+    &--subtext {
       color: #848e97;
-      font-family: 'Montserrat',regular;
+      font-family: 'Montserrat', regular;
       font-size: 1.4rem;
     }
-    &__dropDownMenu{
-      width:29rem;
-      height:36.7rem;
-      &__list{
+
+    &__dropDownMenu {
+      width: 29rem;
+      height: 36.7rem;
+
+      &__list {
         display: flex;
         align-items: center;
         height: 8.5rem;
         border-bottom: 0.2rem solid #3b3b3b;
         cursor: move;
-        &--link{
+
+        &--link {
           text-decoration: none;
           color: #ffffff;
           font-size: 2.5rem;
-          padding:2rem 0 2rem 4rem ;
-          font-family: 'Montserrat',regular;
+          padding: 2rem 0 2rem 4rem;
+          font-family: 'Montserrat', regular;
         }
       }
     }
   }
 
-  &__buttonDwn{
+  &__buttonDwn {
     bottom: -2.5rem;
     position: absolute;
     width: 28rem;
     height: 5rem;
     border: none;
-    border-radius:3.2rem;
+    border-radius: 3.2rem;
     background-color: #8d81ac;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 2rem;
-    &--text{
+
+    &--text {
       text-decoration: none;
       color: #ffffff;
       font-size: 1.5rem;
@@ -133,7 +168,7 @@
     }
   }
 
-  &--dwnText{
+  &--dwnText {
     position: absolute;
     bottom: -5.5rem;
     margin-left: 4.5rem;
@@ -143,7 +178,8 @@
   }
 
 }
-.forkio__slogan__dropDownMenu__list:hover .forkio__slogan__dropDownMenu__list--link{
-  color:#8d81ac;
+
+.forkio__slogan__dropDownMenu__list:hover .forkio__slogan__dropDownMenu__list--link {
+  color: #8d81ac;
   border-left: 1.5rem solid #8d81ac;
 }

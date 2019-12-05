@@ -4,15 +4,16 @@
   }
 }
 
-  @media screen and(min-width: 481px) and(max-width: 768px) {
+  @media screen and(min-width: 481px) and(max-width: 767px) {
   .about{
     margin-top: 9rem;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
     &--title{
-      font-size: 3.78rem;
+      font-size: 500%;
       margin-bottom: -9rem;
+      margin-left: 6%;
     }
     &__cards{
       flex: 50%;
@@ -50,14 +51,16 @@
   }
 }
 @media screen and(min-width: 769px) and(max-width: 991px) {
+
   .about{
     margin-top: 9rem;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
     &--title{
-      font-size: 3.78rem;
+      font-size: 500%;
       margin-bottom: -9rem;
+      margin-left: 6%;
     }
     &__cards{
       flex: 50%;
