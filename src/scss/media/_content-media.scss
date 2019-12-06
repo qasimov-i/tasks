@@ -57,6 +57,8 @@
     background-position: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
     &--title{
       font-size: 500%;
       margin-bottom: -9rem;
@@ -97,9 +99,125 @@
     }
   }
 }
+@media screen and(min-width:992px) and(max-width: 1200px) {
+  html {
+    font-size: 15px;
+    .about{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      &--title {
+        padding: 4rem 0 0 0;
+        font-size: 4rem;
+      }
+        &__cards{
+          margin: -13rem 0 0 0 ;
+          flex: 33%;
+          &--img{
+            padding-top: 0;
+          }
+          &--text{
+            padding:0 0 3rem 0;
+            margin-top: 1.5rem;
+          }
+        }
+        &__cards3{
+          &--img3{
+            width:4.4rem;
+            height: 4.4rem;
+          }
+          &--text{
+            margin-top: -1.5rem;
+            padding: 2.5rem 0 0 0;
+          }
+        }
+        &__cards2{
+          &--text{
+            margin-top: 1.5rem;
+          }
+        }
+        &__cardsbg{
+          background: none;
+        }
+        &__underline{
+          flex: 11%;
+          margin:0 10rem 0 10rem;
+          padding: 0;
+          background: none;
+          &--text{
+            margin:0;
+            padding:  0 0 1rem 0;
+            display: flex;
+            text-align: center;
+            font-size: 1.4rem;
+            color:#8c7b8f;
+            font-family: 'Lato', regular;
+            border-bottom: 0.2rem solid #8c7b8f;
+
+          }
+        }
+      }
+    }
+  }
+
 @media screen and(min-width: 1201px){
-  .about{
-    margin: 0 auto;
-    padding: 0 10px 0 10px;
+  html {
+    font-size: 15px;
+    .about{
+      margin: 0 auto;
+      padding: 0 10px 0 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      &--title {
+        padding: 4rem 0 0 0;
+        font-size: 4rem;
+      }
+      &__cards{
+        margin: -13rem 0 0 0 ;
+        flex: 33%;
+        &--img{
+          padding-top: 0;
+        }
+        &--text{
+          padding:0 0 3rem 0;
+          margin-top: 1.5rem;
+        }
+      }
+      &__cards3{
+        &--img3{
+          width:4.4rem;
+          height: 4.4rem;
+        }
+        &--text{
+          margin-top: -1.5rem;
+          padding: 2.5rem 0 0 0;
+        }
+      }
+      &__cards2{
+        &--text{
+          margin-top: 1.5rem;
+        }
+      }
+      &__cardsbg{
+        background: none;
+      }
+      &__underline{
+        flex: 11%;
+        margin:0 10rem 0 10rem;
+        padding: 0;
+        background: none;
+        &--text{
+          margin:0;
+          padding:  0 0 1rem 0;
+          display: flex;
+          text-align: center;
+          font-size: 1.4rem;
+          color:#8c7b8f;
+          font-family: 'Lato', regular;
+          border-bottom: 0.2rem solid #8c7b8f;
+        }
+      }
+    }
   }
 }
